@@ -70,7 +70,7 @@
 					<div class="container">
 						<div class="carousel-caption text-left">
 							<h1>Join our growing community</h1>
-							
+
 							<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up for our newsletter</a></p>
 						</div>
 					</div>
@@ -79,9 +79,9 @@
 					<img class="second-slide" src="kidsplaying.jpg" alt="Second slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Be informed of community events</h1>
-							
-							<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up</a></p>
+							<h1 class="top">Be informed of community events</h1>
+
+							<p><a class="btn btn-lg btn-primary top" href="#" role="button">Sign up</a></p>
 						</div>
 					</div>
 				</div>
@@ -90,7 +90,7 @@
 					<div class="container">
 						<div class="carousel-caption text-right">
 							<h1>Learn more about Islam</h1>
-							
+
 							<p><a class="btn btn-lg btn-primary" href="#" role="button">Link to our classes</a></p>
 						</div>
 					</div>
@@ -129,8 +129,15 @@
 				<div class="col-md-6 center">
 					<i class="fas fa-book"></i>
 					<h2>Ayah of the Day</h2>
-					<iframe name="I1" width="300" height="370" src="http://www.readthequran.org/gadget/read/ENGLISH1/QURAN/001.html">
-					Your browser does not support inline frames or is currently configured not to display inline frames.</iframe>
+					<div class="ayah">
+						<div class="ayah-title"> Surah Al-Haqqa, Ayat 18 </div>
+						<div class="ayah-english"> On that day you shall be exposed to view-- no secret of yours shall remain hidden. </div>
+				
+						<div class="ayah-arabic"> 
+						اس روز تم (سب لوگوں کے سامنے) پیش کئے جاؤ گے اور تمہاری کوئی پوشیدہ بات چھپی نہ رہے
+						
+						</div>
+					</div>
 
 				</div>
 				<!-- /.col-lg-6 -->
@@ -141,22 +148,22 @@
 			<!-- START THE FEATURETTES -->
 
 			<hr class="featurette-divider">
-			
+
 			<div class="row content">
-				
+
 				<div class="col-md-5">
 					<img class="featurette-image img-fluid mx-auto" src="monroe.jpg" alt="Generic placeholder image">
 				</div>
-				
+
 				<div class="col-md-7">
 					<h2>About Us</h2>
 					<h3 class="text-muted">serving our community since 2003 </h3>
-					
-					<p class="quote">The reward of goodness is nothing but goodness. <br>
-						(55:61)</p>
+
+					<p class="quote">The reward of goodness is nothing but goodness. <br> (55:61)
+					</p>
 					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
-				
+
 			</div>
 
 			<hr class="featurette-divider">
@@ -216,87 +223,87 @@
 
 			<!-- /END THE FEATURETTES -->
 
-	
-		<div id="contact">
-			<div class="container row">
 
-				<div class="col-lg-8">
-	
-					<form id="contact-form" method="post" action="http://www.focuspocus.io/magic/maryum@gmail.com" role="form">
+			<div id="contact">
+				<div class="container row">
 
-						<div class="messages"></div>
+					<div class="col-lg-8">
 
-						<div class="controls">
+						<form id="contact-form" method="post" action="http://www.focuspocus.io/magic/maryum@gmail.com" role="form">
 
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="form_name">Firstname *</label>
-										<input id="form_name" type="text" name="name" class="form-control" placeholder="Your firstname *" required="required" data-error="Firstname is required.">
-										<div class="help-block with-errors"></div>
+							<div class="messages"></div>
+
+							<div class="controls">
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_name">Firstname *</label>
+											<input id="form_name" type="text" name="name" class="form-control" placeholder="Your firstname *" required="required" data-error="Firstname is required.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_lastname">Lastname *</label>
+											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required" data-error="Lastname is required.">
+											<div class="help-block with-errors"></div>
+										</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="form_lastname">Lastname *</label>
-										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Your lastname *" required="required" data-error="Lastname is required.">
-										<div class="help-block with-errors"></div>
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_email">Email *</label>
+											<input id="form_email" type="email" name="email" class="form-control" placeholder="Your email *" required="required" data-error="Valid email is required.">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="form_phone">Phone</label>
+											<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Your phone">
+											<div class="help-block with-errors"></div>
+										</div>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<label for="form_message">Message *</label>
+											<textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<input type="submit" class="btn btn-success btn-send" value="Send message">
+									</div>
+								</div>
+
 							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="form_email">Email *</label>
-										<input id="form_email" type="email" name="email" class="form-control" placeholder="Your email *" required="required" data-error="Valid email is required.">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="form_phone">Phone</label>
-										<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Your phone">
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="form-group">
-										<label for="form_message">Message *</label>
-										<textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<input type="submit" class="btn btn-success btn-send" value="Send message">
-								</div>
-							</div>
-						
-						</div>
 
-					</form>
+						</form>
 
-				</div>
-				
-				<div class="col-lg-4"> 
-				
-				
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13458.08708095066!2d-92.09345171741842!3d32.51220884056462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862e489ba85ec969%3A0xb6a5f243abc7f4fe!2s2414+Oak+St%2C+Monroe%2C+LA+71201%2C+USA!5e0!3m2!1sen!2sca!4v1520448352974" width="260" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-				
-	
+					</div>
+
+					<div class="maps col-lg-4">
+
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13458.08708095066!2d-92.09345171741842!3d32.51220884056462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862e489ba85ec969%3A0xb6a5f243abc7f4fe!2s2414+Oak+St%2C+Monroe%2C+LA+71201%2C+USA!5e0!3m2!1sen!2sca!4v1520448352974" width="260" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+					</div>
+
+
+
+
 				</div>
 
 
 
 
 			</div>
-		
-			
-		
-
-	</div>
-		<!-- /.container -->
+			<!-- /.container -->
 		</div>
 
 		<!-- FOOTER -->
